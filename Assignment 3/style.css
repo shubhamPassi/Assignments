@@ -1,0 +1,64 @@
+body,
+html {
+  height: 100%;
+  margin: 0;
+  background: black;
+}
+
+.bg {
+  background-image: url("https://images.unsplash.com/photo-1614862053138-10ca7a58866e?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1225&q=80s");
+  height: 100%;
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+  font-family: "Courier New", Courier, monospace;
+  font-size: 25px;
+}
+
+.topleft {
+  position: absolute;
+  top: 0;
+  left: 16px;
+}
+
+.bottomleft {
+  position: absolute;
+  bottom: 0;
+  left: 16px;
+}
+
+.middle {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+hr {
+  margin: auto;
+  width: 40%;
+}
+
+.btn {
+  color: #fff;
+  border: none;
+  margin: 20px;
+  padding: 20px 30px;
+  font-size: 15px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  cursor: pointer;
+  border-radius: 5px;
+  background: #0c6474;
+  box-sizing: 0 0 25px #0c6474;
+  position: relative;
+}
+
+.btn:hover {
+  box-shadow: 0 0 5px #0c6474, 0 0 25px #0c6474, 0 0 50px #50a7ff,
+    0 0 100px #0c6474;
+  transform: translateY(-4px);
+}
